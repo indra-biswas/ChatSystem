@@ -23,7 +23,7 @@ async function main(){
 
 //index route / home route
 app.get("/chats", async (req,res) => {
-    let chats = await Chat.find();  //chat.find() function is asynchronous function so we have to write "await keyword before it and to do that our call back function must be a async type"
+    let chats = await Chat.find(); 
     console.log(chats);
     res.render("index.ejs",{chats});
 })

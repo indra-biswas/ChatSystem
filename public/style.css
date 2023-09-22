@@ -1,0 +1,48 @@
+body{
+    margin-left: 20px;
+   
+}
+
+.chat {
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius : 16px;
+    display: inline-block;
+    margin: 20px;
+}
+.msg{
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+}
+h3{
+    color: navy;
+}
+.newChat{
+    margin-left: 20px;
+    border : 5px solid aquamarine;
+    border-radius: 10px;
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+}
+
+.edit{
+    margin: 10px;
+    border : 2px solid aquamarine;
+    border-radius: 5px;
+    background-color: black;
+    color: aqua;
+    padding: 5px 10px 5px 10px;
+}
+
+.delete{
+    margin: 10px;
+    border : 2px solid aquamarine;
+    border-radius: 5px;
+    background-color: black;
+    color: aqua;
+    padding: 5px 10px 5px 10px;
+    
+}
